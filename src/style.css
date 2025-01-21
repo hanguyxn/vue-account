@@ -1,0 +1,28 @@
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-image: linear-gradient(to bottom right, rgba(127, 176, 219, 0), rgb(149, 201, 241));
+  /* background: linear-gradient(#ffadad, #9198e5) no-repeat; */
+}
+.main{
+  width: 400px;
+  text-align: center;
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 30px;
+}
+
+strong{
+  cursor: pointer;
+}
